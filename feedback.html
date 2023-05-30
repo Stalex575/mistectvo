@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Зворотній зв'язок</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/main.css">
+		
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <!-- ============ Main Header - START ============ -->
+
+            <header id="master-header">
+                <div class="top-header">
+
+                    <div class="container">
+
+                        <h1 id="logo">
+                            <a href="index.html">
+                                <img src="img/logo.png">
+                            </a>
+                        </h1>
+
+                        <!-- ============ Main Navigation - START ============ -->
+
+                        <a id="nav-toggle" href="#"><span></span></a>
+                        <nav id="nav-menu">
+                            <ul>
+                                <li>
+                                    <a href="">Обр. мист.</a>
+									<ul>
+                                                
+                                                <li><a href="obr6.html">6 клас</a></li>
+                                                <li><a href="obr7.html">7 клас</a></li>
+                                            </ul>
+                                </li>
+                                <li><a href="">Музика</a>
+								<ul>
+                                        <li><a href="mus5.html">5 клас</a></li>
+                                        <li><a href="mus6.html">6 клас</a></li>
+                                </ul>
+								</li>
+								<li><a href="drawboard.html">Дошка для малювання</a></li>
+								<li class="selected"><a href="feedback.html">Зворотній зв'язок</a></li>
+                            </ul>
+                        </nav>
+
+                        <!-- ============ Main Navigation - END ============ -->
+
+                    </div>
+                </div>
+
+                <h2 id="page-title">Зворотній зв'язок</h2>
+            </header>
+
+            <!-- ============ Main Header - END ============ -->
+
+            <div id="main">
+
+                
+
+                <div class="section">
+
+                    <div class="content container">
+					<div class="col-md-4">
+
+                            <h2 class="focus-title">Форма зворотнього зв'язку</h2>
+
+                            <strong>Це форма зворотнього зв'язку з автором сайту. Якщо у вас є якісь питання чи поради - пишіть!</strong>
+                        </div>
+
+                       
+
+                        <!-- ============ Appointment Form - START ============ -->
+
+                        <div class="col-md-8">
+
+                            <form class="contact-form" action="mailer/appointment.php" method="post">
+
+                                <label>
+                                    <strong>Прізвище *</strong>
+                                    <input class="required" type="text" name="first_name">
+                                </label>
+								
+                                <label>
+                                    <strong>Ім'я *</strong>
+                                    <input class="required" type="text" name="last_name">
+                                </label>
+								
+                                <label>
+                                    <strong>Е-пошта *</strong>
+                                    <input class="required" type="text" name="email">
+                                </label>
+								
+                                <label>
+                                    <strong>Номер телефону *</strong>
+                                    <input class="required" type="text" name="phone">
+                                </label>
+                                
+                                <label><strong>Ваше повідомлення *</strong>
+                                    <textarea class="required" name="description"></textarea>
+                                </label>
+								
+								<p>( <strong>*</strong> ) = Обов'язкове поле</p>
+                                <input class="submit btn md" type="submit" name="submit" value="Відправити">
+                                <input type="hidden" name="form_type" value="appointment">
+
+                            </form>
+
+                        </div>
+
+                        <!-- ============ Appointment Form - END ============ -->
+
+                    </div>
+
+                </div>
+
+               
+
+            </div>
+
+            <!-- ============ Footer - START ============ -->
+
+            <footer class="dark">
+
+                <div class="copyright">
+                     <strong>Проєкт Стадніка Олександра</strong>
+                </div>
+
+            </footer>
+
+            <!-- ============ Footer - END ============ -->
+
+        </div>
+		<div class="go-up" title="Вверх" id='ToTop'>↑</div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/config.js"></script>
+        <script src="js/main.js"></script>
+
+        
+    </body>
+</html>
