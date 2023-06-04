@@ -365,7 +365,7 @@ h6 i {
     position: relative;
     background-image:url(../img/musicc.jpg);
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size: cover;
     text-align: center;
     z-index: 10;
 }
@@ -373,7 +373,7 @@ h6 i {
     position: relative;
     background-image:url(../img/duo.jpg);
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size: cover;
     text-align: center;
     z-index: 10;
 }
@@ -381,7 +381,7 @@ h6 i {
     position: relative;
     background-image:url(../img/musmist1.jpg);
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size: cover;
     text-align: center;
     z-index: 10;
 }
@@ -389,7 +389,7 @@ h6 i {
     position: relative;
     background-image:url(../img/symphony1.jpg);
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size: cover;
     text-align: center;
     z-index: 10;
 }
@@ -397,7 +397,7 @@ h6 i {
     position: relative;
     background-image:url(../img/hor1.jpg);
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size: cover;
     text-align: center;
     z-index: 10;
 }
@@ -405,7 +405,7 @@ h6 i {
     position: relative;
     background-image:url(../img/kamvok1.jpg);
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size: cover;
     text-align: center;
     z-index: 10;
 }
@@ -413,7 +413,7 @@ h6 i {
     position: relative;
     background-image:url(../img/design1.jpg);
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size: cover;
     text-align: center;
     z-index: 10;
 }
@@ -421,7 +421,7 @@ h6 i {
     position: relative;
     background-image:url(../img/decorr1.jpg);
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size: cover;
     text-align: center;
     z-index: 10;
 }
@@ -429,7 +429,7 @@ h6 i {
     position: relative;
     background-image:url(../img/architect1.jpg);
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size: cover;
     text-align: center;
     z-index: 10;
 }
@@ -437,7 +437,7 @@ h6 i {
     position: relative;
     background-image:url(../img/pobut1.jpg);
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size: cover;
     text-align: center;
     z-index: 10;
 }
@@ -445,7 +445,7 @@ h6 i {
     position: relative;
     background-image:url(../img/istor1.jpg);
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size: cover;
     text-align: center;
     z-index: 10;
 }
@@ -453,7 +453,7 @@ h6 i {
     position: relative;
     background-image:url(../img/battle1.jpg);
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size: cover;
     text-align: center;
     z-index: 10;
 }
@@ -461,7 +461,7 @@ h6 i {
     position: relative;
     background-image:url(../img/mifolog1.jpg);
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size: cover;
     text-align: center;
     z-index: 10;
 }
@@ -469,7 +469,7 @@ h6 i {
     position: relative;
     background-image:url(../img/nat1.jpg);
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size: cover;
     text-align: center;
     z-index: 10;
 }
@@ -477,7 +477,7 @@ h6 i {
     position: relative;
     background-image:url(../img/port1.jpg);
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size: cover;
     text-align: center;
     z-index: 10;
 }
@@ -485,7 +485,7 @@ h6 i {
     position: relative;
     background-image:url(../img/land1.jpg);
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size: cover;
     text-align: center;
     z-index: 10;
 }
@@ -3463,3 +3463,12 @@ html[xmlns] .flexslider .slides,
     margin: 0;
     padding: 0;
 }
+
+@media (max-width: 767px) {
+    .art-info > p {
+        font-size: 24px;
+    }
+    .art-info > h3 {
+        font-size: 36px;
+    }
+  }

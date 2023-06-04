@@ -1,10 +1,10 @@
 let linksDiv = document.getElementById("links");
 let linksRows = document.getElementsByClassName("links-row");
 let links = document.getElementsByClassName("link-btn");
-let linksDivH;
+let linksDivH; // the links div height variable
 let mobileVar = false;
 if (window.innerWidth < 500 || window.screen.width < 500) {
-  mobileVar = true;
+  mobileVar = true; // if the device is a mobile, set the variable to true and resize the links to be appropriate
 }
 function resize(mobile = false) {
   if (!mobile) {
@@ -36,7 +36,7 @@ function resize(mobile = false) {
 
 resize(mobileVar);
 window.addEventListener("resize", function () {
-  // таймаут для того, щоб адаптивність працювала і в режимі браузера, в якому тестується адаптивність.
+  // timeout is here, beacause without it, in the device toolbar in the browser, links won't resize
   if (window.innerWidth < 500 || window.screen.width < 500) {
     mobileVar = true;
     setTimeout(resize(mobileVar), 100);
