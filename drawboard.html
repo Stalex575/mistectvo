@@ -3,50 +3,50 @@
     <head>
         <meta charset="utf-8">
         <title>Дошка для малювання</title>
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 		<link rel="stylesheet" href="css/drawboard.css">
     </head>
-<body>
-	<div class="logo">
-                            <a href="index.html">
-                                <img class="displayed" src="img/logo.png">
-                            </a>
-                        </div>
-  <canvas width="800" height="500"></canvas>
-  <div class="controls">
-    <ul>
-      <li class="red selected"></li>
-      <li class="blue"></li>
-      <li class="yellow"></li>
-    </ul>
-    <button id="revealColorSelect">Новий колір</button>
-    <div id="colorSelect">
-      <span id="newColor"></span>
-      <div class="sliders">
-        <p>
-          <label for="red">Red</label>
-          <input id="red" name="red" type="range" min=0 max=255 value=0>
-        </p>
-        <p>
-          <label for="green">Green</label>
-          <input id="green" name="green" type="range" min=0 max=255 value=0>
-        </p>
-        <p>
-          <label for="blue">Blue</label>
-          <input id="blue" name="blue" type="range" min=0 max=255 value=0>
-        </p>
+    <body>
+      <div class="logo">
+        <a href="index.html">
+            <img class="displayed" src="img/logo.png">
+        </a>
       </div>
-      <div>
-        <button id="addNewColor">Додати колір</button>
+      <canvas width="800" height="500"></canvas>
+      <div class="controls">
+        <ul>
+          <li class="red selected"></li>
+          <li class="blue"></li>
+          <li class="yellow"></li>
+        </ul>
+        <button id="revealColorSelect">Новий колір</button>
+        <div id="colorSelect">
+          <span id="newColor"></span>
+          <div class="sliders">
+            <p>
+              <label for="red">Red</label>
+              <input id="red" name="red" type="range" min=0 max=255 value=0>
+            </p>
+            <p>
+              <label for="green">Green</label>
+              <input id="green" name="green" type="range" min=0 max=255 value=0>
+            </p>
+            <p>
+              <label for="blue">Blue</label>
+              <input id="blue" name="blue" type="range" min=0 max=255 value=0>
+            </p>
+          </div>
+          <div>
+            <button id="addNewColor">Додати колір</button>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
+      <script src="js/jquery.min.js"></script>
+      <script src="js/common.js"></script>
+      <script src="js/config.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/drawboard.js"></script>
+    </body>
 
-</body>
-<script src="js/jquery.min.js"></script>
-        <script src="js/common.js"></script>
-        <script src="js/config.js"></script>
-        <script src="js/main.js"></script>
-<script src="js/drawboard.js"></script>
 </html>
